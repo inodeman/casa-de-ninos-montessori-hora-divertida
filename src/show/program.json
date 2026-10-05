@@ -1,0 +1,217 @@
+{
+  "showSeconds": 3600,
+  "titleEs": "Una hora divertida de refuerzo para Casa de Niños Montessori",
+  "titleEn": "A Fun Hour of Reinforcement for the Montessori Children's House",
+  "chapters": [
+    {
+      "id": "apertura",
+      "start": 0,
+      "end": 300,
+      "titleEs": "Ya empezó",
+      "titleEn": "It already started",
+      "lesson": [
+        {"speaker": "luna", "art": "burst", "widget": "beads", "es": "¡Hola, casa de niños! Soy Luna. Esta hora ya empezó, y empezó con alegría.", "en": "Hello, Children's House! I'm Luna. This hour has already started, and it started with joy."},
+        {"speaker": "ambar", "art": "beads", "widget": "beads", "es": "¡Yo soy Ámbar, una cuenta dorada! Hoy tus manos van a recordar lo que ya saben.", "en": "I'm Amber, a golden bead! Today your hands will remember what they already know."},
+        {"speaker": "luna", "art": "classroom", "widget": "breathe", "es": "Mira el salón: estantes bajos, un tapete y el trabajo en orden. Aquí nadie te apura.", "en": "Look at the room: low shelves, a rug, and work in order. Nobody rushes you here."},
+        {"speaker": "ambar", "art": "line", "widget": "walk", "es": "Tres acuerdos: caminamos despacio, elegimos un trabajo y lo regresamos a su lugar.", "en": "Three agreements: we walk slowly, we choose one work, and we return it to its place."},
+        {"speaker": "luna", "art": "sunset", "widget": "breathe", "es": "Pon una mano en el pecho. Entra el aire, sale el aire. Así se abre una hora bonita.", "en": "Put a hand on your chest. Air comes in, air goes out. That is how a lovely hour opens."},
+        {"speaker": "ambar", "art": "burst", "widget": "clap", "es": "Aplaude conmigo: uno, dos, y pausa. Uno, dos, y pausa. Tu cuerpo también aprende.", "en": "Clap with me: one, two, and pause. One, two, and pause. Your body learns too."},
+        {"speaker": "luna", "art": "sensorial", "widget": "colors", "es": "Hoy visitamos las manos, los sentidos, las palabras, los números, el mundo y la cortesía.", "en": "Today we visit hands, senses, words, numbers, the world, and courtesy."},
+        {"speaker": "ambar", "art": "classroom", "widget": "bell", "es": "Da un paso suave. Mejor si un adulto está cerca. La hora divertida ya va andando.", "en": "Take a soft step. It is better with an adult nearby. The fun hour is already on its way."}
+      ],
+      "practice": [
+        {"art": "classroom", "widget": "breathe", "es": "Respira cuatro veces, lento.", "en": "Breathe four times, slowly.", "actEs": "Huele una flor imaginaria. Sopla una vela imaginaria.", "actEn": "Smell an imaginary flower. Blow an imaginary candle."},
+        {"art": "line", "widget": "walk", "es": "Camina como si el piso fuera de cristal fino.", "en": "Walk as if the floor were fine glass.", "actEs": "Talón, punta, talón, punta. Los brazos van quietos.", "actEn": "Heel, toe, heel, toe. Arms stay quiet."},
+        {"art": "burst", "widget": "clap", "es": "El ritmo de la casa.", "en": "The rhythm of the house.", "actEs": "Palmas en las rodillas, palmas juntas, silencio. Repítelo.", "actEn": "Pat your knees, clap, then silence. Repeat."},
+        {"art": "beads", "widget": "count", "n": 3, "es": "Tres cosas que ya sabes hacer solo.", "en": "Three things you can already do by yourself.", "actEs": "Dilo en voz bajita: una, dos y tres.", "actEn": "Say them softly: one, two, and three."},
+        {"art": "sunset", "widget": "bell", "es": "Un segundo de campana quieta.", "en": "One second of a quiet bell.", "actEs": "Cierra los ojos y escucha el cuarto. Luego abre los ojos sonriendo.", "actEn": "Close your eyes and listen to the room. Then open them with a smile."},
+        {"art": "classroom", "widget": "none", "es": "Elige con la mirada.", "en": "Choose with your eyes.", "actEs": "Mira alrededor y señala un solo trabajo para después. Solo uno.", "actEn": "Look around and point to one work for later. Only one."}
+      ]
+    },
+    {
+      "id": "practica",
+      "start": 300,
+      "end": 840,
+      "titleEs": "Manos que cuidan",
+      "titleEn": "Hands that care",
+      "lesson": [
+        {"speaker": "luna", "art": "pour", "widget": "pour", "es": "Vida práctica: las manos cuidan la casa y se cuidan a sí mismas. Empezamos vertiendo despacio.", "en": "Practical life: hands care for the house and for themselves. We begin by pouring slowly."},
+        {"speaker": "ambar", "art": "pour", "widget": "pour", "es": "La jarra sube, el agua baja, y el vaso espera. Si se derrama, el trapo nos enseña. No es un regaño.", "en": "The pitcher rises, the water falls, and the glass waits. If it spills, the cloth teaches us. It is not a scolding."},
+        {"speaker": "luna", "art": "fold", "widget": "none", "es": "Doblar es hacer una cama pequeñita para la tela. Esquina con esquina. La palma alisa.", "en": "Folding is making a tiny bed for the cloth. Corner to corner. The palm smooths."},
+        {"speaker": "ambar", "art": "buttons", "widget": "none", "es": "Los botones piden dedos pacientes. El botón entra en su casa redonda. Tú puedes.", "en": "Buttons ask for patient fingers. The button goes into its round house. You can do it."},
+        {"speaker": "luna", "art": "snack", "widget": "walk", "es": "Una charola se carga con las dos manos, cerca del cuerpo. Así viaja el trabajo sin caerse.", "en": "A tray is carried with two hands, close to the body. That is how work travels without falling."},
+        {"speaker": "ambar", "art": "fold", "widget": "pour", "es": "Regar una planta es decirle: te veo. Poca agua. Luego el regador vuelve a su sitio.", "en": "Watering a plant says: I see you. Just a little water. Then the watering can goes home."},
+        {"speaker": "luna", "art": "pour", "widget": "none", "es": "Limpiar una mesa es devolverle el brillo. Círculos pequeños. De izquierda a derecha, sin prisa.", "en": "Wiping a table gives it its shine back. Small circles. Left to right, unhurried."},
+        {"speaker": "ambar", "art": "buttons", "widget": "bell", "es": "La frase de esta casa: yo puedo hacerlo por mí mismo. Y si necesito ayuda, la pido con calma.", "en": "The sentence of this house: I can do it by myself. And if I need help, I ask calmly."}
+      ],
+      "practice": [
+        {"art": "pour", "widget": "pour", "es": "Vierte en el aire.", "en": "Pour in the air.", "actEs": "Imagina la jarra. Inclínala despacito. Endereza. Solo con agua de verdad si un adulto está contigo.", "actEn": "Imagine the pitcher. Tilt it slowly. Straighten up. Real water only if an adult is with you."},
+        {"art": "fold", "widget": "none", "es": "Dobla algo de verdad.", "en": "Fold something real.", "actEs": "Una servilleta, un calcetín o una hoja. Esquina con esquina.", "actEn": "A napkin, a sock, or a piece of paper. Corner to corner."},
+        {"art": "buttons", "widget": "count", "n": 4, "es": "Cuatro botones, cuatro casas.", "en": "Four buttons, four houses.", "actEs": "Abrocha cuatro botones, o toca cuatro puntos de tu ropa con cuidado.", "actEn": "Fasten four buttons, or gently touch four spots on your clothes."},
+        {"art": "snack", "widget": "walk", "es": "La charola invisible.", "en": "The invisible tray.", "actEs": "Camina hasta la puerta y regresa con las dos manos sosteniendo el aire.", "actEn": "Walk to the door and back, both hands holding the air."},
+        {"art": "fold", "widget": "breathe", "es": "Cuida una planta, aunque sea dibujada.", "en": "Care for a plant, even a pictured one.", "actEs": "Mira una planta o el dibujo. Dile una frase amable. Si hay regadera y un adulto, tres gotas.", "actEn": "Look at a plant or the picture. Tell it one kind sentence. With a can and an adult, three drops."},
+        {"art": "pour", "widget": "none", "es": "El brillo de la mesa.", "en": "The shine of the table.", "actEs": "Pasa la palma en círculos sobre la mesa. Luego deja la mano quieta.", "actEn": "Move your palm in circles on the table. Then let your hand rest."},
+        {"art": "classroom", "widget": "bell", "es": "Regresa el trabajo.", "en": "Return the work.", "actEs": "Si sacaste algo, devuélvelo al mismo lugar. El estante sonríe cuando todo vuelve.", "actEn": "If you took something out, put it back in the same place. The shelf smiles when things return."},
+        {"art": "buttons", "widget": "clap", "es": "Yo puedo.", "en": "I can.", "actEs": "Dilo tres veces, cada vez un poco más claro: yo puedo hacerlo por mí mismo.", "actEn": "Say it three times, a little clearer each time: I can do it by myself."}
+      ]
+    },
+    {
+      "id": "sensorial",
+      "start": 840,
+      "end": 1380,
+      "titleEs": "Los sentidos despiertan",
+      "titleEn": "Senses wake up",
+      "lesson": [
+        {"speaker": "luna", "art": "sensorial", "widget": "rods", "es": "El área sensorial afina el ojo, el oído, la mano, la nariz y la lengua. Hoy jugamos a notar.", "en": "The sensorial area sharpens eye, ear, hand, nose, and tongue. Today we play at noticing."},
+        {"speaker": "ambar", "art": "sensorial", "widget": "rods", "es": "La torre rosa va de grande a pequeño. El cubo más grande es la base. Nunca empieza por la punta.", "en": "The pink tower goes from large to small. The biggest cube is the base. It never starts at the tip."},
+        {"speaker": "luna", "art": "colors", "widget": "colors", "es": "Las tablillas de color son una familia. Rojo con rojo. Azul con azul. Tus ojos son los que presentan.", "en": "Color tablets are a family. Red with red. Blue with blue. Your eyes make the introduction."},
+        {"speaker": "ambar", "art": "nature", "widget": "clap", "es": "Hay sonidos fuertes y sonidos suaves. Una palmada de trueno, un roce de hoja. Los dos merecen silencio después.", "en": "There are loud sounds and soft sounds. A thunder clap, a leaf's whisper. Both deserve silence after."},
+        {"speaker": "luna", "art": "nature", "widget": "none", "es": "La mano distingue rugoso y liso. Pasa los dedos despacio. Ponle nombre a lo que sientes.", "en": "The hand tells rough from smooth. Move your fingers slowly. Name what you feel."},
+        {"speaker": "ambar", "art": "beads", "widget": "breathe", "es": "La nariz también estudia. Canela, limón, pan, jabón. Huele sin tocar, como un invitado educado.", "en": "The nose studies too. Cinnamon, lemon, bread, soap. Smell without touching, like a polite guest."},
+        {"speaker": "luna", "art": "sensorial", "widget": "beads", "es": "La bolsa misteriosa guarda una forma. La mano adivina: esfera, cubo o nada de prisa.", "en": "The mystery bag hides a shape. The hand guesses: sphere, cube, and nothing in a hurry."},
+        {"speaker": "ambar", "art": "colors", "widget": "colors", "es": "Cuando comparas, no gana nadie. Solo descubres: este es más alto, este es más suave, este es el mismo.", "en": "When you compare, nobody wins. You only discover: this one is taller, this one is softer, this one is the same."}
+      ],
+      "practice": [
+        {"art": "sensorial", "widget": "rods", "es": "Torre de cojines.", "en": "A tower of cushions.", "actEs": "Ordena tres cosas de grande a pequeño: cojines, vasos o libros.", "actEn": "Order three things from large to small: cushions, cups, or books."},
+        {"art": "colors", "widget": "colors", "es": "Cacería de color.", "en": "Color hunt.", "actEs": "Encuentra algo rojo, algo azul y algo amarillo sin correr.", "actEn": "Find something red, something blue, and something yellow, without running."},
+        {"art": "nature", "widget": "clap", "es": "Fuerte y suave.", "en": "Loud and soft.", "actEs": "Una palmada fuerte. Luego el sonido más suave que puedas. Repite el par.", "actEn": "One loud clap. Then the softest sound you can make. Repeat the pair."},
+        {"art": "buttons", "widget": "none", "es": "Rugoso y liso.", "en": "Rough and smooth.", "actEs": "Toca la mesa y luego tu mejilla. Di cuál es más lisa.", "actEn": "Touch the table, then your cheek. Say which is smoother."},
+        {"art": "nature", "widget": "breathe", "es": "La nariz científica.", "en": "The scientific nose.", "actEs": "Huele tu manga, una fruta o el aire de la ventana. Di una palabra de ese olor.", "actEn": "Smell your sleeve, a fruit, or the air at the window. Say one word for that smell."},
+        {"art": "beads", "widget": "beads", "es": "Adivina la forma.", "en": "Guess the shape.", "actEs": "Cierra los ojos. Alguien, o tu otra mano, pone una tapa, una cuchara o una bola. Nómbrala.", "actEn": "Close your eyes. Someone, or your other hand, gives you a lid, a spoon, or a ball. Name it."},
+        {"art": "sensorial", "widget": "count", "n": 5, "es": "Cinco parejas.", "en": "Five pairs.", "actEs": "Busca dos cosas que sean del mismo color. Júntalas. Si puedes, haz otra pareja.", "actEn": "Find two things of the same color. Put them together. If you can, make another pair."},
+        {"art": "colors", "widget": "bell", "es": "El ojo descansa.", "en": "The eye rests.", "actEs": "Mira un solo color del cuadro durante tres respiraciones. Luego parpadea.", "actEn": "Look at one color in the picture for three breaths. Then blink."}
+      ]
+    },
+    {
+      "id": "lenguaje",
+      "start": 1380,
+      "end": 1920,
+      "titleEs": "Palabras que bailan",
+      "titleEn": "Words that dance",
+      "lesson": [
+        {"speaker": "luna", "art": "language", "widget": "letters", "es": "El lenguaje empieza en el oído. Antes de leer, escuchamos el primer sonido de las cosas.", "en": "Language begins in the ear. Before reading, we listen for the first sound of things."},
+        {"speaker": "ambar", "art": "language", "widget": "letters", "es": "Tu nombre tiene una puerta. La primera letra es esa puerta. Tócala en el aire, despacio, de izquierda a derecha.", "en": "Your name has a door. The first letter is that door. Trace it in the air, slowly, left to right."},
+        {"speaker": "luna", "art": "classroom", "widget": "none", "es": "Veo, veo, una cosa que empieza como maaaaa. Mesa, mano, mamá. El sonido se estira como liga.", "en": "I spy something that starts like maaaaa. In Spanish: mesa, mano, mamá. Stretch the sound like a rubber band."},
+        {"speaker": "ambar", "art": "sunset", "widget": "letters", "es": "Tres palabras de luz: sol, mar y paz. Son cortas, y caben enteras en la boca.", "en": "Three words of light: sun, sea, and peace. They are short, and they fit whole inside the mouth."},
+        {"speaker": "luna", "art": "nature", "widget": "clap", "es": "Las sílabas son pasos de la palabra. Pa-pel. Ven-ta-na. Ca-sa. Un aplauso por cada paso.", "en": "Syllables are a word's footsteps. Pa-per. Win-dow. Hou-se. One clap for each step."},
+        {"speaker": "ambar", "art": "language", "widget": "breathe", "es": "Hay palabras que se dicen bajito porque son un regalo: gracias, por favor, buenos días.", "en": "Some words are said softly because they are a gift: thank you, please, good morning."},
+        {"speaker": "luna", "art": "desert", "widget": "none", "es": "Un poema chiquito: el sol abre la puerta, el río cuenta un cuento, la casa dice entra.", "en": "A tiny poem: the sun opens the door, the river tells a story, the house says come in."},
+        {"speaker": "ambar", "art": "classroom", "widget": "bell", "es": "Nombra con precisión. No digas solo eso. Di: jarra, tapete, cuenta, hoja, silencio.", "en": "Name things precisely. Do not only say that. Say: pitcher, rug, bead, leaf, silence."}
+      ],
+      "practice": [
+        {"art": "language", "widget": "letters", "es": "La puerta de tu nombre.", "en": "The door of your name.", "actEs": "Di tu nombre. Estira solo el primer sonido. Escríbelo en el aire.", "actEn": "Say your name. Stretch only the first sound. Write it in the air."},
+        {"art": "classroom", "widget": "none", "es": "Veo, veo.", "en": "I spy.", "actEs": "Encuentra algo que empiece con el sonido m. Tócalo y di su nombre completo.", "actEn": "Find something that starts with the sound m. Touch it and say its full name."},
+        {"art": "sunset", "widget": "letters", "es": "Sol, mar, paz.", "en": "Sun, sea, peace.", "actEs": "Di las tres palabras. En cada una, cuenta los sonidos con los dedos.", "actEn": "Say the three words. For each one, count the sounds on your fingers."},
+        {"art": "nature", "widget": "clap", "es": "Pasos de la palabra.", "en": "Footsteps of a word.", "actEs": "Aplaude las sílabas de casa, de ventana y de tu nombre.", "actEn": "Clap the syllables of house, of window, and of your name."},
+        {"art": "language", "widget": "breathe", "es": "Palabras regalo.", "en": "Gift words.", "actEs": "Susurra gracias hacia alguien que esté contigo, o hacia tus propias manos.", "actEn": "Whisper thank you to someone with you, or to your own hands."},
+        {"art": "desert", "widget": "none", "es": "El poema de pie.", "en": "The poem, standing up.", "actEs": "Repite: el sol abre la puerta. Inventa tú la segunda línea.", "actEn": "Repeat: the sun opens the door. Invent the second line yourself."},
+        {"art": "snack", "widget": "count", "n": 5, "es": "Cinco nombres exactos.", "en": "Five exact names.", "actEs": "Señala cinco objetos y di su nombre verdadero, sin decir cosa.", "actEn": "Point to five objects and say each true name, without saying thing."},
+        {"art": "language", "widget": "bell", "es": "Una palabra para guardar.", "en": "One word to keep.", "actEs": "Elige la palabra más bonita de esta parte y dila otra vez, muy clara.", "actEn": "Choose the loveliest word from this part and say it once more, very clearly."}
+      ]
+    },
+    {
+      "id": "matematicas",
+      "start": 1920,
+      "end": 2520,
+      "titleEs": "Perlas y números",
+      "titleEn": "Beads and numbers",
+      "lesson": [
+        {"speaker": "luna", "art": "math", "widget": "count", "es": "Las matemáticas de la casa de niños se tocan. El número no vive solo en la boca: vive en la cantidad.", "en": "Mathematics in the Children's House can be touched. A number does not live only in the mouth: it lives in quantity."},
+        {"speaker": "ambar", "art": "math", "widget": "rods", "es": "Las barras numéricas crecen de una en una. La más corta es uno. Cada paso suma un tramo rojo o azul.", "en": "Number rods grow one by one. The shortest is one. Each step adds a red or a blue length."},
+        {"speaker": "luna", "art": "beads", "widget": "beads", "es": "Una cuenta dorada es una unidad. Diez unidades se abrazan y forman una barra de diez.", "en": "One golden bead is a unit. Ten units hug and become a ten-bar."},
+        {"speaker": "ambar", "art": "beads", "widget": "beads", "es": "Diez barras hacen un cuadrado de cien. Diez cuadrados hacen un cubo de mil. Grande, ¿verdad? Y empezó en una.", "en": "Ten bars make a hundred square. Ten squares make a thousand cube. Big, isn't it? And it began as one."},
+        {"speaker": "luna", "art": "math", "widget": "count", "es": "Cero es la mano vacía. No es un error. Es la cantidad de nada, y también es un número.", "en": "Zero is the empty hand. It is not a mistake. It is the quantity of nothing, and it is a number too."},
+        {"speaker": "ambar", "art": "colors", "widget": "clap", "es": "Par e impar. Si todos tienen pareja, el número es par. Si sobra uno, es impar. Tus manos lo demuestran.", "en": "Even and odd. If everyone has a partner, the number is even. If one is left over, it is odd. Your hands can prove it."},
+        {"speaker": "luna", "art": "classroom", "widget": "count", "es": "Contar el cuarto es ciencia doméstica. Ventanas, sillas, lámparas. Un dedo por cada cosa, sin saltarte ninguna.", "en": "Counting the room is household science. Windows, chairs, lamps. One finger for each thing, skipping none."},
+        {"speaker": "ambar", "art": "beads", "widget": "bell", "es": "Después de contar, guarda las perlas. El número se queda en la memoria, no regado en el piso.", "en": "After counting, put the beads away. The number stays in memory, not scattered on the floor."}
+      ],
+      "practice": [
+        {"art": "beads", "widget": "count", "n": 10, "es": "Del uno al diez.", "en": "From one to ten.", "actEs": "Cuenta diez palmadas suaves. Si te pierdes, vuelve al uno con calma.", "actEn": "Count ten soft claps. If you get lost, return to one calmly."},
+        {"art": "math", "widget": "rods", "es": "De corto a largo.", "en": "From short to long.", "actEs": "Ordena lápices, cucharas o libros del más corto al más largo.", "actEn": "Order pencils, spoons, or books from shortest to longest."},
+        {"art": "beads", "widget": "beads", "es": "Una y diez.", "en": "One and ten.", "actEs": "Pon una semilla, un botón o una piedra. Luego haz un grupo de diez.", "actEn": "Set down one seed, button, or stone. Then make a group of ten."},
+        {"art": "math", "widget": "none", "es": "La mano vacía.", "en": "The empty hand.", "actEs": "Muestra cero con la mano cerrada y abierta sin nada. Di: cero.", "actEn": "Show zero with an open empty hand. Say: zero."},
+        {"art": "colors", "widget": "clap", "es": "Pares.", "en": "Pairs.", "actEs": "Junta pares de calcetines, tapas o palmas. ¿Sobró alguno? Entonces ese grupo es impar.", "actEn": "Match pairs of socks, lids, or claps. Was one left over? Then that group is odd."},
+        {"art": "classroom", "widget": "count", "n": 4, "es": "Contar la casa.", "en": "Count the house.", "actEs": "Cuenta las ventanas que ves. Luego las sillas. Di los dos números.", "actEn": "Count the windows you see. Then the chairs. Say both numbers."},
+        {"art": "beads", "widget": "count", "n": 5, "es": "El cinco.", "en": "Five.", "actEs": "Da cinco pasos. En el quinto, detente y di: cinco.", "actEn": "Take five steps. On the fifth, stop and say: five."},
+        {"art": "snack", "widget": "bell", "es": "Guardar es parte del número.", "en": "Putting away is part of the number.", "actEs": "Si usaste objetos, cuéntalos otra vez al guardarlos.", "actEn": "If you used objects, count them again as you put them away."}
+      ]
+    },
+    {
+      "id": "cultura",
+      "start": 2520,
+      "end": 3000,
+      "titleEs": "El mundo es nuestra casa",
+      "titleEn": "The world is our house",
+      "lesson": [
+        {"speaker": "luna", "art": "map", "widget": "none", "es": "Cultura es salir a mirar el mundo sin dejar el respeto en la puerta. El planeta también es una casa.", "en": "Culture is looking out at the world without leaving respect at the door. The planet is a house too."},
+        {"speaker": "ambar", "art": "map", "widget": "none", "es": "Los continentes son grandes pedazos de tierra. Los océanos son el agua que los abraza. Tierra y agua, los dos.", "en": "Continents are great pieces of land. Oceans are the water that holds them. Land and water, both."},
+        {"speaker": "luna", "art": "nature", "widget": "breathe", "es": "Una planta tiene raíz, tallo, hoja, flor y a veces fruto. Cada parte trabaja. Como en el salón.", "en": "A plant has root, stem, leaf, flower, and sometimes fruit. Each part works. Just like in the classroom."},
+        {"speaker": "ambar", "art": "nature", "widget": "none", "es": "Los animales tienen casa: el nido, la madriguera, el río, la colmena. Nosotros tenemos la nuestra y la cuidamos.", "en": "Animals have homes: the nest, the burrow, the river, the hive. We have ours, and we care for it."},
+        {"speaker": "luna", "art": "desert", "widget": "breathe", "es": "Si vives cerca del desierto, el sol, el río y las montañas son vecinos. Si no, el mismo sol también te encuentra.", "en": "If you live near the desert, the sun, the river, and the mountains are neighbors. If not, the same sun still finds you."},
+        {"speaker": "ambar", "art": "sunset", "widget": "none", "es": "El día es para el trabajo. La noche es para el descanso. La Tierra gira y por eso la luz se va de paseo.", "en": "Day is for work. Night is for rest. The Earth turns, and that is why the light goes walking."},
+        {"speaker": "luna", "art": "fold", "widget": "bell", "es": "Cuidar el planeta se parece a cuidar el estante: usar lo que necesitas y dejarlo mejor de como lo hallaste.", "en": "Caring for the planet is like caring for the shelf: use what you need and leave it better than you found it."},
+        {"speaker": "ambar", "art": "map", "widget": "clap", "es": "En otro país, una niña también enrolla un tapete. Distinto idioma. El mismo cuidado.", "en": "In another country, a child is also rolling a rug. A different language. The same care."}
+      ],
+      "practice": [
+        {"art": "map", "widget": "none", "es": "Tierra y agua.", "en": "Land and water.", "actEs": "En el dibujo, señala tierra y luego agua. Di las dos palabras.", "actEn": "In the picture, point to land and then water. Say both words."},
+        {"art": "nature", "widget": "count", "n": 4, "es": "Partes de la planta.", "en": "Parts of a plant.", "actEs": "Si hay una planta, señala hoja y tallo. Si no, dibújalos en el aire: raíz, tallo, hoja, flor.", "actEn": "If there is a plant, point to a leaf and a stem. If not, draw them in the air: root, stem, leaf, flower."},
+        {"art": "nature", "widget": "none", "es": "Casa de animal.", "en": "An animal home.", "actEs": "Nombra un animal y su casa. Pájaro y nido. Pez y agua. Abeja y colmena.", "actEn": "Name an animal and its home. Bird and nest. Fish and water. Bee and hive."},
+        {"art": "desert", "widget": "breathe", "es": "Lo que se ve afuera.", "en": "What you see outside.", "actEs": "Mira por la ventana o imagina tu calle. Di tres cosas de la naturaleza.", "actEn": "Look out the window or imagine your street. Name three things from nature."},
+        {"art": "sunset", "widget": "bell", "es": "Día y noche.", "en": "Day and night.", "actEs": "Abre las manos: día. Ciérralas suave: noche. Tres veces.", "actEn": "Open your hands: day. Close them gently: night. Three times."},
+        {"art": "fold", "widget": "none", "es": "Dejarlo mejor.", "en": "Leave it better.", "actEs": "Recoge una sola cosa que esté fuera de lugar. Una basta.", "actEn": "Pick up one thing that is out of place. One is enough."},
+        {"art": "map", "widget": "clap", "es": "Un saludo al mundo.", "en": "A greeting to the world.", "actEs": "Di hola en tu idioma y, si lo sabes, en otro. Hola. Hello.", "actEn": "Say hello in your language and, if you know it, in another. Hello. Hola."},
+        {"art": "classroom", "widget": "walk", "es": "La casa grande.", "en": "The big house.", "actEs": "Camina un círculo lento. Ese círculo eres tú cuidando tu pedacito de mundo.", "actEn": "Walk a slow circle. That circle is you caring for your small piece of the world."}
+      ]
+    },
+    {
+      "id": "gracia",
+      "start": 3000,
+      "end": 3360,
+      "titleEs": "Gracia, cortesía y paso",
+      "titleEn": "Grace, courtesy, and step",
+      "lesson": [
+        {"speaker": "luna", "art": "snack", "widget": "none", "es": "Gracia y cortesía es el arte de vivir juntos. Se practica, como se practica verter agua.", "en": "Grace and courtesy is the art of living together. It is practiced, the way pouring water is practiced."},
+        {"speaker": "ambar", "art": "snack", "widget": "bell", "es": "Saludar es mirar, sonreír y decir el nombre si lo sabes. Hola, Luna. Hola, Ámbar. Hola, tú.", "en": "Greeting is looking, smiling, and saying the name if you know it. Hello, Luna. Hello, Amber. Hello, you."},
+        {"speaker": "luna", "art": "line", "widget": "walk", "es": "Caminar sobre la línea enseña equilibrio. Un pie delante del otro. La mirada al frente, no al suelo con miedo.", "en": "Walking on the line teaches balance. One foot in front of the other. Eyes forward, not down in fear."},
+        {"speaker": "ambar", "art": "line", "widget": "bell", "es": "Puedes llevar una campana sin dejarla cantar. Eso es control. El silencio también es un movimiento.", "en": "You can carry a bell without letting it sing. That is control. Silence is a movement too."},
+        {"speaker": "luna", "art": "sunset", "widget": "breathe", "es": "El juego del silencio: escuchamos juntos. Si oyes un ruido, no tienes que atraparlo. Déjalo pasar.", "en": "The silence game: we listen together. If you hear a noise, you do not have to catch it. Let it pass."},
+        {"speaker": "ambar", "art": "snack", "widget": "none", "es": "Por favor abre la puerta. Gracias por el vaso. Perdón, necesito pasar. Son llaves pequeñas.", "en": "Please open the door. Thank you for the glass. Excuse me, I need to pass. They are small keys."},
+        {"speaker": "luna", "art": "classroom", "widget": "walk", "es": "Cuando alguien trabaja, rodeamos su tapete. No se pisa. Es su país por un rato.", "en": "When someone is working, we walk around the rug. We do not step on it. It is their country for a while."},
+        {"speaker": "ambar", "art": "snack", "widget": "clap", "es": "Y al terminar, se agradece a las personas y a los materiales. Los dos ayudaron.", "en": "And at the end, we thank the people and the materials. Both of them helped."}
+      ],
+      "practice": [
+        {"art": "snack", "widget": "none", "es": "Un saludo completo.", "en": "A complete greeting.", "actEs": "Mira a alguien, sonríe y di su nombre o di: hola, buenos días.", "actEn": "Look at someone, smile, and say their name, or say: hello, good morning."},
+        {"art": "line", "widget": "walk", "es": "La línea del piso.", "en": "The line on the floor.", "actEs": "Si puedes, pon una cinta en el suelo. Camina encima despacio, ida y vuelta.", "actEn": "If you can, place a tape on the floor. Walk on it slowly, there and back."},
+        {"art": "line", "widget": "bell", "es": "La campana callada.", "en": "The quiet bell.", "actEs": "Lleva una cuchara o unas llaves en la palma, caminando, sin hacerlas sonar.", "actEn": "Carry a spoon or keys in your palm while walking, without making them sound."},
+        {"art": "sunset", "widget": "breathe", "es": "Silencio de diez.", "en": "A silence of ten.", "actEs": "Con un adulto, callen juntos mientras cuentas diez respiraciones. Luego una sonrisa.", "actEn": "With an adult, be quiet together while you count ten breaths. Then one smile."},
+        {"art": "classroom", "widget": "walk", "es": "Rodea el tapete.", "en": "Walk around the rug.", "actEs": "Imagina un rectángulo en el piso. Camina por fuera. Nunca lo cruzas.", "actEn": "Imagine a rectangle on the floor. Walk around the outside. Never cross it."},
+        {"art": "snack", "widget": "clap", "es": "Tres llaves.", "en": "Three keys.", "actEs": "Di: por favor, gracias, perdón. Una reverencia pequeñita al final, si quieres.", "actEn": "Say: please, thank you, excuse me. A tiny bow at the end, if you want."}
+      ]
+    },
+    {
+      "id": "cierre",
+      "start": 3360,
+      "end": 3600,
+      "titleEs": "Hasta la próxima hora",
+      "titleEn": "Until the next hour",
+      "lesson": [
+        {"speaker": "luna", "art": "sunset", "widget": "breathe", "es": "La hora se recoge, como se recoge un trabajo. Despacio. Con cariño. Sin dejar nada tirado.", "en": "The hour is put away, the way work is put away. Slowly. With care. Leaving nothing scattered."},
+        {"speaker": "ambar", "art": "classroom", "widget": "bell", "es": "Mira el estante de tu memoria. ¿Qué guardaste hoy? Una palabra, un número o un paso suave.", "en": "Look at the shelf of your memory. What did you keep today? A word, a number, or a soft step."},
+        {"speaker": "luna", "art": "beads", "widget": "beads", "es": "Gracias, manos. Gracias, ojos. Gracias, oídos. Trabajaron toda la hora y no se quejaron.", "en": "Thank you, hands. Thank you, eyes. Thank you, ears. You worked the whole hour and did not complain."},
+        {"speaker": "ambar", "art": "sunset", "widget": "clap", "es": "Cantamos bajito: manos quietas, corazón contento. Hasta pronto, casita de niños.", "en": "We sing softly: quiet hands, happy heart. See you soon, little children's house."},
+        {"speaker": "luna", "art": "desert", "widget": "breathe", "es": "Si afuera está el sol del desierto o la lluvia de otra ciudad, da igual. Tú ya ordenaste algo por dentro.", "en": "Whether outside there is desert sun or rain in another city, it does not matter. You already put something in order inside."},
+        {"speaker": "ambar", "art": "classroom", "widget": "walk", "es": "El último paso es el más elegante. Se camina hacia quien te cuida y se dice: terminé mi hora.", "en": "The last step is the most elegant. Walk toward the person who cares for you and say: I finished my hour."},
+        {"speaker": "luna", "art": "burst", "widget": "beads", "es": "Esto fue un refuerzo, no una carrera. Tu guía de la escuela sigue siendo quien te acompaña cada día.", "en": "This was reinforcement, not a race. Your guide at school is still the one who walks with you each day."},
+        {"speaker": "ambar", "art": "sunset", "widget": "bell", "es": "Hasta la próxima hora divertida. Yo, Ámbar, me quedo brillando en el estante. Tú puedes ir a jugar el silencio.", "en": "Until the next fun hour. I, Amber, stay shining on the shelf. You may go and play the silence."}
+      ],
+      "practice": [
+        {"art": "classroom", "widget": "bell", "es": "¿Qué guardaste?", "en": "What did you keep?", "actEs": "Di una sola cosa que recuerdes de esta hora. Solo una, bien dicha.", "actEn": "Say one thing you remember from this hour. Only one, well said."},
+        {"art": "beads", "widget": "clap", "es": "La canción corta.", "en": "The short song.", "actEs": "Canta o di: manos quietas, corazón contento. Hasta pronto, casita de niños.", "actEn": "Sing or say: quiet hands, happy heart. See you soon, little children's house."},
+        {"art": "sunset", "widget": "breathe", "es": "Gracias en tres.", "en": "Thanks in three.", "actEs": "Toca tus manos, tus ojos y tus oídos, y di gracias a cada uno.", "actEn": "Touch your hands, your eyes, and your ears, and say thank you to each."},
+        {"art": "desert", "widget": "none", "es": "El sol de tu ventana.", "en": "The sun at your window.", "actEs": "Mira la luz. Di si es sol, nube o lámpara. Nómbrala con respeto.", "actEn": "Look at the light. Say whether it is sun, cloud, or lamp. Name it with respect."},
+        {"art": "line", "widget": "walk", "es": "El último paso.", "en": "The last step.", "actEs": "Camina hacia tu adulto y di: terminé mi hora.", "actEn": "Walk to your adult and say: I finished my hour."},
+        {"art": "sunset", "widget": "bell", "es": "Silencio final.", "en": "Final silence.", "actEs": "Quédate quieto el tiempo de una respiración larga. La hora descansa contigo.", "actEn": "Stay quiet for one long breath. The hour rests with you."}
+      ]
+    }
+  ]
+}

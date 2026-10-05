@@ -1,0 +1,22 @@
+{
+  "es": {
+    "apertura": 58.22,
+    "practica": 61.87,
+    "sensorial": 67.63,
+    "lenguaje": 64.54,
+    "matematicas": 67.51,
+    "cultura": 64.92,
+    "gracia": 66.22,
+    "cierre": 66.6
+  },
+  "en": {
+    "apertura": 60.02,
+    "practica": 63.62,
+    "sensorial": 68.71,
+    "lenguaje": 65.9,
+    "matematicas": 68.93,
+    "cultura": 66.1,
+    "gracia": 68.09,
+    "cierre": 69.31
+  }
+}
