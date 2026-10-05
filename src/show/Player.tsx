@@ -41,10 +41,11 @@ export function Player() {
   mutedRef.current = muted;
   const frameRef = useRef<HTMLDivElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const practiceRef = useRef<HTMLAudioElement>(null);
   const timeRef = useRef(0);
   const tick = useRef(0);
   const musicRef = useRef<ReturnType<typeof createBed> | null>(null);
+  const langRef = useRef(lang);
+  langRef.current = lang;
 
   const view = useMemo(() => viewAt(started ? time : 0, lang, durations), [started, time, lang, durations]);
 
@@ -86,32 +87,57 @@ export function Player() {
   }, [playing]);
 
   useEffect(() => {
-    const audio = audioRef.current;
-    if (!audio || !hasAudio || !started) return;
-    audio.src = `/audio/${lang}/${view.chapter.id}.mp3`;
-    audio.load();
-  }, [hasAudio, lang, started, view.chapter.id]);
-
-  useEffect(() => {
     if (!hasAudio) return;
-    const id = window.setInterval(() => {
-      const audio = audioRef.current;
-      if (!audio) return;
-      const chapter = chapters.find((c) => timeRef.current >= c.start && timeRef.current < c.end) ?? chapters[chapters.length - 1];
-      const offset = timeRef.current - chapter.start;
-      const lesson = durationsRef.current[chapter.id] ?? 0;
-      audio.muted = mutedRef.current;
-      if (!playingRef.current || offset > lesson + 0.35) {
-        if (!audio.paused) audio.pause();
-        return;
-      }
-      if (audio.readyState >= 1 && Math.abs(audio.currentTime - offset) > 0.7) {
-        audio.currentTime = offset;
-      }
-      if (audio.paused) void audio.play().catch(() => {});
-    }, 500);
+    const id = window.setInterval(() => syncVoice(), 400);
     return () => window.clearInterval(id);
   }, [hasAudio]);
+
+  function syncVoice() {
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.muted = mutedRef.current;
+    if (!playingRef.current) {
+      if (!audio.paused) audio.pause();
+      return;
+    }
+    const langNow = langRef.current;
+    const chapter =
+      chapters.find((c) => timeRef.current >= c.start && timeRef.current < c.end) ??
+      chapters[chapters.length - 1];
+    const offset = timeRef.current - chapter.start;
+    const slot = chapter.end - chapter.start;
+    const measured = durationsRef.current[chapter.id] ?? 0;
+    const lesson = measured > 1 ? Math.min(measured, slot - 20) : slot * 0.42;
+    let clip = `${langNow}/${chapter.id}.mp3`;
+    let local = offset;
+    if (offset > lesson + 0.12 && chapter.practice.length) {
+      const practiceFor = Math.max(1, slot - lesson);
+      const each = practiceFor / chapter.practice.length;
+      const index = Math.min(chapter.practice.length - 1, Math.max(0, Math.floor((offset - lesson) / each)));
+      clip = `${langNow}/${chapter.id}-p${index}.mp3`;
+      local = offset - lesson - index * each;
+    }
+    if (!audio.src.endsWith(clip)) {
+      audio.dataset.seek = String(Math.max(0, local));
+      audio.src = `/audio/${clip}`;
+      void audio.play().catch(() => {});
+      return;
+    }
+    const dur = Number.isFinite(audio.duration) ? audio.duration : 0;
+    if (dur > 0.3 && local >= dur - 0.12) {
+      if (!audio.paused) audio.pause();
+      return;
+    }
+    if (audio.readyState >= 1) {
+      const pending = audio.dataset.seek;
+      const target = pending != null && pending !== "" ? Number(pending) : local;
+      if (pending != null && pending !== "") delete audio.dataset.seek;
+      if (Math.abs(audio.currentTime - target) > 0.65) {
+        audio.currentTime = Math.min(Math.max(0, target), dur > 0.3 ? Math.max(0, dur - 0.08) : target);
+      }
+    }
+    if (audio.paused) void audio.play().catch(() => {});
+  }
 
   useEffect(() => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
@@ -129,7 +155,7 @@ export function Player() {
   useEffect(() => {
     const bed = musicRef.current;
     if (!bed) return;
-    bed.setLevel(!playing || muted ? 0 : view.mode === "lesson" && hasAudio ? 0.04 : 0.1);
+    bed.setLevel(!playing || muted ? 0 : hasAudio ? 0.045 : 0.1);
   }, [muted, playing, view.mode, hasAudio]);
 
   function armAudio() {
@@ -141,14 +167,16 @@ export function Player() {
     } else {
       void musicRef.current?.ctx.resume();
     }
+    syncVoice();
   }
 
   function begin() {
-    armAudio();
+    playingRef.current = true;
+    timeRef.current = 0;
+    setTime(0);
     setStarted(true);
     setPlaying(true);
-    setTime(0);
-    timeRef.current = 0;
+    armAudio();
   }
 
   function toggle() {
@@ -156,8 +184,11 @@ export function Player() {
       begin();
       return;
     }
-    armAudio();
-    setPlaying((p) => !p);
+    const next = !playingRef.current;
+    playingRef.current = next;
+    setPlaying(next);
+    if (next) armAudio();
+    else audioRef.current?.pause();
   }
 
   function seek(next: number) {
@@ -217,8 +248,8 @@ export function Player() {
                 <h1 className="mt-1 font-display text-2xl leading-none font-semibold sm:mt-2 sm:text-5xl sm:leading-[1.05]">{copy ? "Una hora divertida" : "A fun hour"}</h1>
                 <p className="mt-1 text-xs leading-snug text-ink/80 sm:mt-2 sm:text-lg">
                   {copy
-                    ? "Refuerzo para Casa de Niños Montessori. Luna y Ámbar, desde el primer segundo."
-                    : "Reinforcement for the Montessori Children's House. Luna and Amber, from the first second."}
+                    ? "Luna y Ámbar hablan toda la hora. Los niños no necesitan leer: la práctica también va narrada."
+                    : "Luna and Amber speak the whole hour. Children do not need to read: practice is narrated too."}
                 </p>
                 <button type="button" onClick={begin} className="mt-2 inline-flex items-center gap-2 rounded-full bg-terra px-4 py-2 text-sm font-extrabold text-paper sm:mt-5 sm:px-5 sm:py-3 sm:text-base">
                   <Play className="size-4 fill-current sm:size-5" />
@@ -309,7 +340,6 @@ export function Player() {
           })}
         </div>
         <audio ref={audioRef} preload="auto" />
-        <audio ref={practiceRef} preload="none" />
       </main>
     </div>
   );

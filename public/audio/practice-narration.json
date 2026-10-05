@@ -1,0 +1,466 @@
+{
+  "es/apertura-p0": {
+    "target": 40.3,
+    "got": 40.36
+  },
+  "es/apertura-p1": {
+    "target": 40.3,
+    "got": 40.36
+  },
+  "es/apertura-p2": {
+    "target": 40.3,
+    "got": 40.36
+  },
+  "es/apertura-p3": {
+    "target": 40.3,
+    "got": 40.36
+  },
+  "es/apertura-p4": {
+    "target": 40.3,
+    "got": 40.36
+  },
+  "es/apertura-p5": {
+    "target": 40.3,
+    "got": 40.36
+  },
+  "es/practica-p0": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/practica-p1": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/practica-p2": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/practica-p3": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/practica-p4": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/practica-p5": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/practica-p6": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/practica-p7": {
+    "target": 59.77,
+    "got": 59.82
+  },
+  "es/sensorial-p0": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/sensorial-p1": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/sensorial-p2": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/sensorial-p3": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/sensorial-p4": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/sensorial-p5": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/sensorial-p6": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/sensorial-p7": {
+    "target": 59.05,
+    "got": 59.12
+  },
+  "es/lenguaje-p0": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/lenguaje-p1": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/lenguaje-p2": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/lenguaje-p3": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/lenguaje-p4": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/lenguaje-p5": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/lenguaje-p6": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/lenguaje-p7": {
+    "target": 59.43,
+    "got": 59.51
+  },
+  "es/matematicas-p0": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/matematicas-p1": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/matematicas-p2": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/matematicas-p3": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/matematicas-p4": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/matematicas-p5": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/matematicas-p6": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/matematicas-p7": {
+    "target": 66.56,
+    "got": 66.64
+  },
+  "es/cultura-p0": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/cultura-p1": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/cultura-p2": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/cultura-p3": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/cultura-p4": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/cultura-p5": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/cultura-p6": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/cultura-p7": {
+    "target": 51.88,
+    "got": 51.96
+  },
+  "es/gracia-p0": {
+    "target": 48.96,
+    "got": 49.03
+  },
+  "es/gracia-p1": {
+    "target": 48.96,
+    "got": 49.03
+  },
+  "es/gracia-p2": {
+    "target": 48.96,
+    "got": 49.03
+  },
+  "es/gracia-p3": {
+    "target": 48.96,
+    "got": 49.03
+  },
+  "es/gracia-p4": {
+    "target": 48.96,
+    "got": 49.03
+  },
+  "es/gracia-p5": {
+    "target": 48.96,
+    "got": 49.03
+  },
+  "es/cierre-p0": {
+    "target": 28.9,
+    "got": 28.97
+  },
+  "es/cierre-p1": {
+    "target": 28.9,
+    "got": 28.97
+  },
+  "es/cierre-p2": {
+    "target": 28.9,
+    "got": 28.97
+  },
+  "es/cierre-p3": {
+    "target": 28.9,
+    "got": 28.97
+  },
+  "es/cierre-p4": {
+    "target": 28.9,
+    "got": 28.97
+  },
+  "es/cierre-p5": {
+    "target": 28.9,
+    "got": 28.97
+  },
+  "en/apertura-p0": {
+    "target": 40.0,
+    "got": 40.07
+  },
+  "en/apertura-p1": {
+    "target": 40.0,
+    "got": 40.07
+  },
+  "en/apertura-p2": {
+    "target": 40.0,
+    "got": 40.07
+  },
+  "en/apertura-p3": {
+    "target": 40.0,
+    "got": 40.07
+  },
+  "en/apertura-p4": {
+    "target": 40.0,
+    "got": 40.07
+  },
+  "en/apertura-p5": {
+    "target": 40.0,
+    "got": 40.07
+  },
+  "en/practica-p0": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/practica-p1": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/practica-p2": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/practica-p3": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/practica-p4": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/practica-p5": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/practica-p6": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/practica-p7": {
+    "target": 59.55,
+    "got": 59.61
+  },
+  "en/sensorial-p0": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/sensorial-p1": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/sensorial-p2": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/sensorial-p3": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/sensorial-p4": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/sensorial-p5": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/sensorial-p6": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/sensorial-p7": {
+    "target": 58.91,
+    "got": 58.98
+  },
+  "en/lenguaje-p0": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/lenguaje-p1": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/lenguaje-p2": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/lenguaje-p3": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/lenguaje-p4": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/lenguaje-p5": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/lenguaje-p6": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/lenguaje-p7": {
+    "target": 59.26,
+    "got": 59.32
+  },
+  "en/matematicas-p0": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/matematicas-p1": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/matematicas-p2": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/matematicas-p3": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/matematicas-p4": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/matematicas-p5": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/matematicas-p6": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/matematicas-p7": {
+    "target": 66.38,
+    "got": 66.46
+  },
+  "en/cultura-p0": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/cultura-p1": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/cultura-p2": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/cultura-p3": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/cultura-p4": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/cultura-p5": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/cultura-p6": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/cultura-p7": {
+    "target": 51.74,
+    "got": 51.8
+  },
+  "en/gracia-p0": {
+    "target": 48.65,
+    "got": 48.72
+  },
+  "en/gracia-p1": {
+    "target": 48.65,
+    "got": 48.72
+  },
+  "en/gracia-p2": {
+    "target": 48.65,
+    "got": 48.72
+  },
+  "en/gracia-p3": {
+    "target": 48.65,
+    "got": 48.72
+  },
+  "en/gracia-p4": {
+    "target": 48.65,
+    "got": 48.72
+  },
+  "en/gracia-p5": {
+    "target": 48.65,
+    "got": 48.72
+  },
+  "en/cierre-p0": {
+    "target": 28.45,
+    "got": 28.53
+  },
+  "en/cierre-p1": {
+    "target": 28.45,
+    "got": 28.53
+  },
+  "en/cierre-p2": {
+    "target": 28.45,
+    "got": 28.53
+  },
+  "en/cierre-p3": {
+    "target": 28.45,
+    "got": 28.53
+  },
+  "en/cierre-p4": {
+    "target": 28.45,
+    "got": 28.53
+  },
+  "en/cierre-p5": {
+    "target": 28.45,
+    "got": 28.53
+  }
+}

@@ -59,3 +59,4 @@ Repositorio: https://github.com/inodeman/casa-de-ninos-montessori-hora-divertida
 
 La aplicación reproduce la hora completa en el navegador, con el escenario ilustrado,
 los capítulos y el cambio de idioma. El reloj corre en tiempo real hasta 01:00:00.
+Luna y Ámbar narran la lección y también cada práctica, para que los niños no tengan que leer.

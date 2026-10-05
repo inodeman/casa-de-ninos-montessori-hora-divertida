@@ -78,8 +78,8 @@ function buildDescription(lang: Lang): string {
     TITLE[lang],
     "",
     lang === "es"
-      ? "Una hora completa para reforzar, con calma y con juego, lo que se vive en la Casa de Niños. Luna y Ámbar guían manos, sentidos, palabras, números, mundo y cortesía."
-      : "A full hour to reinforce, calmly and playfully, what children live in the Children's House. Luna and Amber guide hands, senses, words, numbers, the world, and courtesy.",
+      ? "Una hora completa para reforzar, con calma y con juego, lo que se vive en la Casa de Niños. Luna y Ámbar hablan durante toda la hora, también en la práctica. Los niños no necesitan leer."
+      : "A full hour to reinforce, calmly and playfully, what children live in the Children's House. Luna and Amber speak through the whole hour, including practice. Children do not need to read.",
     "",
     lang === "es" ? "Capítulos" : "Chapters",
   ];
